@@ -28,7 +28,7 @@ def predict_frame(image,model):
     
     return prediction , prob
 # load model
-model = keras.models.load_model('../models/4clasess_object_recognizer_pretrained_model.h5')
+model = keras.models.load_model('./models/4clasess_object_recognizer_pretrained_model.h5')
 # set some general parameters
 # font
 font = cv2.FONT_HERSHEY_SIMPLEX
